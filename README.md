@@ -82,7 +82,7 @@ ScrollReveal().reveal('.headline')
 ```
 
 ### DEFAULT VALUE
-...js
+```js
 {
     delay: 0,
     distance: '0px',
@@ -115,7 +115,7 @@ ScrollReveal().reveal('.headline')
     beforeReset: function (el) {},
     beforeReveal: function (el) {},
 }
-...
+```
 
 
 **🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
