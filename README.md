@@ -81,7 +81,7 @@ There’s a lot we can do with this instance, but most of the time we’ll be us
 ScrollReveal().reveal('.headline')
 ```
 
-### DEFAULT VALUE
+### Default value
 ```js
 {
     delay: 0,
@@ -115,8 +115,23 @@ ScrollReveal().reveal('.headline')
     beforeReset: function (el) {},
     beforeReveal: function (el) {},
 }
-```
 
+```
+### Exampe
+
+```js
+const sr = ScrollReveal({
+	distance: '60px',
+	duration: 1500,
+	delay: 500,
+	reset: true
+});
+
+sr.reveal('.item_1',{delay:300, origin: 'top'});
+sr.reveal('.item_2', {delay: 400, origib: 'left'});
+sr.reveal('item_3', {delay: 500, origin: 'right'})
+
+```
 
 **🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
 
