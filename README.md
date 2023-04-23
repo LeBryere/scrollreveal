@@ -81,6 +81,43 @@ There’s a lot we can do with this instance, but most of the time we’ll be us
 ScrollReveal().reveal('.headline')
 ```
 
+### DEFAULT VALUE
+...js
+{
+    delay: 0,
+    distance: '0px',
+    duration: 600,
+    easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    interval: 0,
+    opacity: 0,
+    origin: 'bottom',
+    rotate: {
+        x: 0,
+        y: 0,
+        z: 0,
+    },
+    scale: 1,
+    cleanup: false,
+    container: document.documentElement,
+    desktop: true,
+    mobile: true,
+    reset: false,
+    useDelay: 'always',
+    viewFactor: 0.0,
+    viewOffset: {
+        top: 0,
+        right: 0,
+        bottom: 0,
+        left: 0,
+    },
+    afterReset: function (el) {},
+    afterReveal: function (el) {},
+    beforeReset: function (el) {},
+    beforeReveal: function (el) {},
+}
+...
+
+
 **🔎 See this demo live on [JSBin](http://jsbin.com/jufohaxonu/edit?html,output)**
 
 <br>
