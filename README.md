@@ -128,7 +128,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.item_1',{delay:300, origin: 'top'});
-sr.reveal('.item_2', {delay: 400, origib: 'left'});
+sr.reveal('.item_2', {delay: 400, origin: 'left'});
 sr.reveal('item_3', {delay: 500, origin: 'right'})
 
 ```
